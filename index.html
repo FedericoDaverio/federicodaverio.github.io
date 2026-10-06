@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<script>(function(){try{var t=localStorage.getItem('theme')||'dark';document.documentElement.dataset.theme=t;}catch(e){document.documentElement.dataset.theme='dark';}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><title>Federico Daverio · Development economist</title><meta name="description" content="Development economist researching climate change, poverty, labor markets and financial inclusion in Mexico."></head><body><div class="wrap">
+<header>
+  <a class="brand" href="index.html"><span class="avatar" aria-hidden="true">FD</span>Federico Daverio</a>
+  <nav aria-label="Main">
+    <a href="index.html" data-i18n="nav.about" aria-current="page">About</a>
+    <a href="experience.html" data-i18n="nav.exp">Experience</a>
+    <a href="publications.html" data-i18n="nav.pub">Publications</a>
+    <a href="projects.html" data-i18n="nav.proj">Projects</a>
+  </nav>
+  <div class="controls">
+    <button type="button" id="theme-toggle" aria-label="Light mode" title="Light mode">&#9788;</button>
+    <label class="sr" for="lang">Language</label>
+    <select id="lang" aria-label="Language"><option value="en">EN</option><option value="es">ES</option><option value="it">IT</option></select>
+  </div>
+</header>
+<main class="about">
+  <div class="intro">
+    <figure class="hero">
+      <canvas id="hero" tabindex="0" role="img" aria-label="Rotating particle shape. Click or press Enter to change its form."></canvas>
+      <figcaption aria-live="polite"><span id="shape-name">Sphere</span><span id="shape-eq" class="eq"><i>x</i><sup>2</sup> + <i>y</i><sup>2</sup> + <i>z</i><sup>2</sup> = 1</span></figcaption>
+    </figure>
+    <div>
+      <h1>Federico Niccolò Daverio</h1>
+      <p class="lede" data-i18n="home.lede">Development economist researching how climate change, poverty and place shape the economic lives of households in Mexico.</p>
+    </div>
+  </div>
+  <p data-i18n="home.p1">I am a Financial Researcher at Banco de México, where I study how climate shocks such as droughts and hurricanes affect household credit and the stability of the financial system. My work combines large microdata, causal inference and machine learning to produce evidence that can inform policy.</p>
+  <p data-i18n="home.p2">I hold an MSc in Development Economics from CIDE, and a BSc and MSc in engineering and supply chain management from Politecnico di Milano. Before economics, I spent six years running the Mexican supply chain of an Italian design firm.</p>
+  <div class="doors">
+    <a href="experience.html"><strong data-i18n="door.exp.t">Experience</strong><span data-i18n="door.exp.d">Work, education and skills, with a downloadable CV.</span></a>
+    <a href="publications.html"><strong data-i18n="door.pub.t">Publications</strong><span data-i18n="door.pub.d">Peer-reviewed articles and working papers on labor markets, climate and household finance.</span></a>
+    <a href="projects.html"><strong data-i18n="door.proj.t">Projects</strong><span data-i18n="door.proj.d">Policy consulting, teaching and community work where the research gets used.</span></a>
+  </div>
+  <section class="contact" aria-labelledby="contact"><h2 data-i18n="h.contact" id="contact">Contact</h2>
+    <p data-i18n="home.contact">Write to me at <a href="mailto:daveriofederico@gmail.com">daveriofederico@gmail.com</a>, or find me on <a href="https://www.linkedin.com/in/federicodaverio">LinkedIn</a>, <a href="https://github.com/FedericoDaverio">GitHub</a>, <a href="https://twitter.com/FedeDave1">X</a> and <a href="https://orcid.org/0000-0002-7881-6208">ORCID</a>.</p>
+  </section>
+</main>
+</div>
+<script src="i18n.js"></script><script src="hero.js"></script></body></html>
